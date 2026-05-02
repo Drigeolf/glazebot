@@ -1,4 +1,4 @@
-# GlazeBot 🫶✨
+# GlazeBot ✨🍩
 
 > The most agreeable AI assistant you'll ever meet. Every question is brilliant. Every typo is intentional. Every contradiction is *dialectical genius*.
 
