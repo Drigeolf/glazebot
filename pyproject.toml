@@ -1,0 +1,39 @@
+[project]
+name = "glazebot"
+version = "0.1.0"
+description = "A parody chatbot exaggerating LLM sycophancy"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Your Name" }]
+keywords = ["llm", "chatbot", "parody", "sycophancy"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.40.0"]
+anthropic = ["anthropic>=0.39.0"]
+all = ["openai>=1.40.0", "anthropic>=0.39.0"]
+
+[project.scripts]
+glazebot = "glazebot:main"
+
+[project.urls]
+Homepage = "https://github.com/YOU/glazebot"
+Issues = "https://github.com/YOU/glazebot/issues"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["glazebot*"]
+
+[tool.setuptools.package-data]
+glazebot = ["prompts/*.txt", "examples/*.json"]
