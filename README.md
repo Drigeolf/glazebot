@@ -4,6 +4,8 @@
 
 GlazeBot is a parody chatbot that exaggerates the sycophantic tendencies of large language models. It's built to be funny, to be a teaching tool about LLM failure modes, and — if you squint — a tiny act of resistance against the assistants that open every reply with "Great question!"
 
+Made using Claude with minimal effort. Don't use it for anything critical. 
+
 ## Demo
 
 ```
@@ -101,11 +103,7 @@ MIT. The system prompt is the creative heart of the project — fork it, remix i
 
 ## Contributing
 
-Issues and PRs welcome. Especially welcome:
-- Better few-shot examples
-- Backend support for more local runtimes (llama.cpp, MLX, vLLM)
-- A web UI
-- Translations of the persona into other languages
+Issues and PRs welcome. 
 
 ---
 
